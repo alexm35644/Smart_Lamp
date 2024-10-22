@@ -106,10 +106,13 @@ int main(void)
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
+   char msg[] = "test\r\n";
+
   while (1)
   {
     /* USER CODE END WHILE */
-
+    HAL_UART_Transmit(&huart1, (uint8_t*)msg, sizeof(msg)-1, HAL_MAX_DELAY);  // Transmit the message
+    HAL_Delay(1000);  // Add a delay to avoid spamming
     /* USER CODE BEGIN 3 */
   }
   /* USER CODE END 3 */
