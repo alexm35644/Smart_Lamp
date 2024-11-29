@@ -1,0 +1,14 @@
+Removed Pin From Net: NetName=HSDA Pin=J1-2
+Removed Pin From Net: NetName=HSDA Pin=R11-2
+Removed Pin From Net: NetName=HSDA Pin=U1-18
+Added Pin To Net: NetName=D+ Pin=U2-2
+Added Pin To Net: NetName=D- Pin=U2-3
+Added Pin To Net: NetName=SCL Pin=U2-5
+Added Pin To Net: NetName=SDA Pin=U2-6
+Added Pin To Net: NetName=INT Pin=U2-7
+Added Pin To Net: NetName=OTG Pin=U2-8
+Added Pin To Net: NetName=CE Pin=U2-9
+Added Pin To Net: NetName=HSLA Pin=J1-2
+Added Pin To Net: NetName=HSLA Pin=R11-2
+Added Pin To Net: NetName=HSLA Pin=U1-18
+Added Net: Name=HSLA
