@@ -1,4 +1,0 @@
-Remove Pin=U2-5 From Net=SCL
-Remove Pin=U2-6 From Net=SDA
-Remove Pin=U2-7 From Net=INT
-Remove Pin=U2-11 From Net=TS
